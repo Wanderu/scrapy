@@ -99,6 +99,9 @@ setup_args = {
     'packages': packages,
     'cmdclass': cmdclasses,
     'data_files': data_files,
+    'package_data': {
+        '':  ['*.types'],
+    },
     'scripts': scripts,
     'classifiers': [
         'Programming Language :: Python',
